@@ -1,45 +1,56 @@
-import React, {useEffect, useState, useRef} from 'react'
-import styles from './home.module.css'
+import React, {useEffect, useState, useRef} from 'react';
+import styles from './home.module.css';
 import Header from '../../components/header/index';
 import Footer from '../../components/Footer/index';
-import {motion} from 'framer-motion';
-import banner1 from '../../../public/images/banner1.png'
-import banner2 from '../../../public/images/banner2.png'
-import banner3 from '../../../public/images/banner3.png'
 import { Link } from 'react-router-dom';
+import {Swiper, SwiperSlide } from 'swiper/react'
 
-const images = [banner1, banner2, banner3]
+
+
 
 
 function Home() {
 
-  const rotativo = useRef();
-  const [width, setWidth] = useState(0)
+  const data = [
+    {id: '1', image: '../../../public/images/banner1.png'},
+    {id: '2', image: '../../../public/images/banner2.png'},
+    {id: '3', image: '../../../public/images/banner3.png'},
+  ]
 
-
-  useEffect (() => {
-    //console.log(rotativo.current?.scrollWidth, rotativo.current?.offsetWidth)
-    setWidth(rotativo.current?.scrollWidth - rotativo.current?.offsetWidth)
-  }, [])
+  
 
   return (
+
+
+    
     <div>
     <Header/>
     <div className={styles.Root}>
     <div className={styles.Banner}>
-      <motion.div ref={rotativo} className={styles.Rotativo} whileTap={{cursor: "grabbing"}}>
-        <motion.div className={styles.inner} drag="x" dragConstraints={{ right:0, left: - width}}>
+     <Swiper className={styles.swiper}
+      slidesPerView={1}
+      pagination={{clickable: true}}
+      navigation
+      
+      style={{
+        "--swiper-navigation-color": "#000",
+        "--swiper-pagination-color": "#fff",
+        "--swiper-pagination-width": "32px",
+      }}
+    >
 
-          {images.map(image => (
-            <motion.div className={styles.item} key={image}>
-              <img src={image} alt='Imagens banner'/>
-            </motion.div>
-          ) )}
+      
+      {data.map((item)=>(
+        <SwiperSlide className={styles.Swiper} key={item.id}>
+          <img src={item.image} alt="slider" />
+      </SwiperSlide>
+      ))}
 
-        </motion.div>
-      </motion.div>
+
+
+     </Swiper>
+    
     </div>
-    <div className={styles.Bot}> <button></button> <button></button> <button></button> </div>
     <div className={styles.imagens}>
       <div className={styles.Img1}> <Link to="/RSalgadas"> <img className={styles.Img} src="./public/images/salgado.png" alt="" /><button className={styles.Botao}>Salgadas</button></Link></div>
       <div className={styles.Img2}> <Link to="RDoces"> <img className={styles.Img} src="./public/images/doces.png" alt="" /><button className={styles.Botao}>Doces</button></Link></div>
@@ -47,6 +58,8 @@ function Home() {
     </div>
   </div>
     <Footer/>
+
+    
   </div>
  )
 }
