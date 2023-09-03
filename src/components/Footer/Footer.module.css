@@ -1,0 +1,67 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+.Root {
+  width: 144rem;
+  margin: 0;
+  padding: 0;
+  --header-color: #BBCDB5;
+  --verde-escuro: #586553;
+  font-family: 'Montserrat', sans-serif;
+  max-height: 15rem;
+}
+
+
+.Footer {
+  background-color: var(--header-color);
+  height: 15rem;
+  box-shadow:0px -4px 4px #696767;
+  display: flex;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.Conteudo{
+  margin-left: 9rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+}
+
+.TitleH1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: var(--verde-escuro);
+}
+
+.TitleP{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--verde-escuro);
+  height: 8.1rem;
+  width: 110rem;;
+}
+
+.LinkSocial{
+  display: flex;
+  align-items: center;
+  margin-left: 2rem;
+  margin-top: 10rem;
+}
+
+.Icons{
+  width: 3.2rem;
+  height: 3.2rem;
+  padding: 1.6rem;
+}
+
+.Icons1{
+  width: 4.2rem;
+  height: 4.2rem;
+  padding: 1.6rem;
+}

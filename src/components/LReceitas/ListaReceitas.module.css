@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+.Root {
+  margin: 0;
+  padding: 0;
+  --header-color: #BBCDB5;
+  --verde-escuro: #586553;
+  --back-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Conteudo{
+  width: 60.8rem;
+  height: 16rem;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px  #696767;
+  display: flex;
+  align-items: center;
+  margin: 1.2rem 2.4rem 1.2rem 0;
+}
+
+.Img{
+  width: 21.3rem;
+  height: 12.8rem;
+  border-radius: 10px;
+  margin: 1.6rem;
+}
+
+.Descricao{
+  margin: 0 1.6rem 1.6rem 1.6rem;
+  text-align: center;
+  width: 33rem;
+  height: 12.8rem;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-start;
+}
+
+.TitleP{
+  font-size: 2rem;
+  color: #484747;
+}
+
+.Information{
+  display: flex;
+  
+}
+
+.Time{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--header-color);
+  width: 12.1rem;
+  height: 3.9rem;
+  border-radius: 5px;
+  padding: 6px 8px 6px 8px ;
+  
+}
+
+.IconTime{
+  width: 2rem;
+  height: 2rem;
+  margin-left: 8px;
+}
+
+.TextTime{
+  color: var(--verde-escuro);
+  font-size: 2rem;
+  margin:0 8px 0 8px;
+}
+
+.IconHeart{
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-left: 13rem;
+}

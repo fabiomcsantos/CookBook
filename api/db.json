@@ -1,0 +1,176 @@
+{
+  "doces": [
+    {
+      "id": 1,
+      "titulo": "Bolo de cenoura com cobertura chocolate",
+      "imagem": "https://bakeandcakegourmet.com.br/uploads/site/receitas/bolo-de-cenoura-sem-gluten-ghqgbkkh.jpg",
+      "tempo": "45min.",
+      "url": "https://www.tudogostoso.com.br/receita/23-bolo-de-cenoura.html"
+    },
+    {
+      "id": 2,
+      "titulo": "Brownie de chocolate",
+      "imagem": "https://achougastronomia.com.br/wp-content/uploads/2022/01/Receita-de-brownie-scaled.jpg",
+      "tempo": "35mim.",
+      "url": "https://www.tudogostoso.com.br/receita/1998-brownie-de-chocolate.html"
+    },
+    {
+      "id": 3,
+      "titulo": "Cocada de forno",
+      "imagem": "https://stories.tudogostoso.com.br/saiba-fazer-cocada-de-forno/assets/1.jpeg",
+      "tempo": "45min.",
+      "url":"https://www.tudogostoso.com.br/receita/1096-cocada-de-forno.html" 
+    },
+    {
+      "id": 4,
+      "titulo": "Torta de limão",
+      "imagem": "https://catracalivre.com.br/wp-content/uploads/2022/03/img-8977.jpg",
+      "tempo": "50min.",
+      "url":"https://www.tudogostoso.com.br/receita/104383-torta-de-limao.html" 
+    },
+    {
+      "id": 5,
+      "titulo": "Pudim de paçoca",
+      "imagem": "https://i0.statig.com.br/bancodeimagens/24/c5/hw/24c5hw5tb44v02294tpncz0os.jpg",
+      "tempo": "60min.",
+      "url":"https://www.tudogostoso.com.br/receita/165648-pudim-de-pacoca.html" 
+    },
+    {
+      "id": 6,
+      "titulo": "Torta de maracujá",
+      "imagem": "https://www.xl1.com.br/wp-content/uploads/2021/05/torta-de-maracuja.jpg",
+      "tempo": "40min.",
+      "url":"https://www.tudogostoso.com.br/receita/1024-torta-de-maracuja.html" 
+    },
+    {
+      "id": 7,
+      "titulo": "Bem casado com doce de leite",
+      "imagem": "https://ciadereceitas.com.br/wp-content/uploads/2022/09/receita-de-bem-casado.png",
+      "tempo": "60min.",
+      "url":"https://www.tudogostoso.com.br/receita/86040-bem-casado-facil-facil.html" 
+    },
+    {
+      "id": 8,
+      "titulo": "Mousse stikadinho",
+      "imagem": "https://assets.delirec.com/images%2FcqTSityMetVEDrFyY33BTCBzRXF2%2Frecipe%2F181bf420-1060-463d-8588-362ba5320999-Mousse-de-stikadinho-gallery-1",
+      "tempo": "20min.",
+      "url":"https://anamariabraga.globo.com/receita/stikadinho/"
+  }
+  ],
+  "salgadas": [
+    {
+      "id": 1,
+      "titulo": "Nhoque de forno",
+      "imagem": "https://www.cozinhaaz.com/wp-content/uploads/2017/04/nhoque-de-batata-1-1300x1300.jpg",
+      "tempo": "60min.",
+      "url":"https://www.tudogostoso.com.br/receita/67718-nhoque-de-forno.html"
+    },
+    {
+      "id": 2,
+      "titulo": "Costela suina de forno",
+      "imagem": "https://static.itdg.com.br/images/1200-675/0a869fa99fe2c59e28faeba2b6bf1bee/328455-original.jpg",
+      "tempo": "90mim.",
+      "url":"https://www.tudogostoso.com.br/receita/34242-costela-suina-ao-forno.html"
+    },
+    {
+      "id": 3,
+      "titulo": "Arroz de forno",
+      "imagem": "https://assets.unileversolutions.com/recipes-v2/36559.jpg",
+      "tempo": "45min.",
+      "url":"https://www.tudogostoso.com.br/receita/123713-arroz-de-forno-rapido.html"
+    },
+    {
+      "id": 4,
+      "titulo": "Rocambole de carne",
+      "imagem": "https://receitinhas.com.br/wp-content/uploads/2022/12/Rocambole-de-carne-moida-A-arquiteta.jpg",
+      "tempo": "55min.",
+      "url":"https://www.tudogostoso.com.br/receita/1598-rocambole-de-carne-moida-maravilhoso.html"
+    },
+    {
+      "id": 5,
+      "titulo": "Lasanha bolonhesa",
+      "imagem": "https://img.cybercook.com.br/receitas/731/lasanha-3.jpeg",
+      "tempo": "40min.",
+      "url":"https://www.tudogostoso.com.br/receita/185729-lasanha-a-bolonhesa.html"
+    },
+    {
+      "id": 6,
+      "titulo": "Carne de panela",
+      "imagem": "https://espetinhodesucesso.com.br/wp-content/uploads/2022/02/Quais-os-melhores-Acompanhamentos-para-carne-de-panela.jpg",
+      "tempo": "50min.",
+      "url":"https://www.tudogostoso.com.br/receita/8836-carne-de-panela.html"
+    },
+    {
+      "id": 7,
+      "titulo": "Bolinho de carne",
+      "imagem": "https://i.ytimg.com/vi/OdxfrGHmMUQ/maxresdefault.jpg",
+      "tempo": "30min.",
+      "url":"https://www.tudogostoso.com.br/receita/12643-bolinho-de-batata-com-carne-moida.html"
+    },
+    {
+      "id": 8,
+      "titulo": "Escondidinho de carne seca",
+      "imagem": "https://www.minhareceita.com.br/app/uploads/2022/04/ESCOND6502.jpg",
+      "tempo": "50min.",
+      "url":"https://www.tudogostoso.com.br/receita/20768-escondidinho-de-carne-seca.html"
+    }
+  ],
+  "bebidas": [
+    {
+      "id": 1,
+      "titulo": "Caipirinha de frutas vermelhas",
+      "imagem": "https://blog.ginbrasil.com.br/wp-content/uploads/2020/08/Gin-Brasil-11-Entenda-a-fun%C3%A7%C3%A3o-do-gelo-no-seu-drink-e-por-que-ele-%C3%A9-importante.jpg",
+      "tempo": "10min.",
+      "url":"https://cybercook.com.br/receitas/bebidas/receita-de-caipirinha-de-frutas-vermelhas-119495"
+    },
+    {
+      "id": 2,
+      "titulo": "Mojito",
+      "imagem": "https://www.sabornamesa.com.br/media/k2/items/cache/65eb99de7f31e7479a8853734ca0c7ac_XL.jpg",
+      "tempo": "8mim.",
+      "url":"https://cybercook.com.br/receitas/bebidas/receita-de-mojito-9786"
+    },
+    {
+      "id": 3,
+      "titulo": "Blue lagoon",
+      "imagem": "https://www.liquor.com/thmb/-Ednp4bA2pQ79BY4Mf-2vdLegJI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__liquor__2019__07__12152657__blue-lagoon-720x720-recipe-647fb82bc3214de68e0eed9aed5afbfa.jpg",
+      "tempo": "12min.",
+      "url":"https://receitinhas.com.br/receita/blue-lagoon-drink/"
+    },
+    {
+      "id": 4,
+      "titulo": "Cuba Libre",
+      "imagem": "https://cardapio.menu/storage/media/dishes_main/2286054/cuba-libre.jpg",
+      "tempo": "7min.",
+      "url":"https://receitinhas.com.br/receita/cuba-libre/"
+    },
+    {
+      "id": 5,
+      "titulo": "Cosmopolitan",
+      "imagem": "https://www.simplejoy.com/wp-content/uploads/2018/03/cosmopolitan_drink.jpg",
+      "tempo": "10min.",
+      "url":"https://www.receiteria.com.br/receita/cosmopolitan/"
+    },
+    {
+      "id": 6,
+      "titulo": "Caipirinha de limão",
+      "imagem": "https://claudia.abril.com.br/wp-content/uploads/2020/01/dicas-para-fazer-a-caipirinha-perfeita-kajakiki-1.jpg?quality=85&strip=info",
+      "tempo": "7min.",
+      "url":"https://www.tudogostoso.com.br/receita/128825-caipirinha-original.html"
+    },
+    {
+      "id": 7,
+      "titulo": "Sexy on the beach",
+      "imagem": "https://www.receiteria.com.br/wp-content/uploads/sex-on-the-beach-01.jpg",
+      "tempo": "10min.",
+      "url":"https://www.receiteria.com.br/receita/sex-on-the-beach/"
+    },
+    {
+      "id": 8,
+      "titulo": "Pina colada",
+      "imagem": "https://3.bp.blogspot.com/-3K1EH8Q6_-g/Vgb9m9G5H6I/AAAAAAAAA68/yaXhayZZNQg/s1600/Draaanks-Pina-Colada.jpeg",
+      "tempo": "10min.",
+      "url":"https://panelinha.com.br/receita/pina-colada"
+    }
+  ]
+}

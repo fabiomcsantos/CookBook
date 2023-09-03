@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+.Root {
+  width: 144rem;
+  margin: 0;
+  padding: 0;
+  --header-color: #BBCDB5;
+  --verde-escuro: #586553;
+  --back-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--back-color);
+
+}
+
+.Voltar{
+  padding: 5rem 10rem 5rem 11.6rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Voltar a {
+  color: #AC5050;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.Seta{
+  width: 2.4rem;
+  height: 2.4rem;
+  vertical-align:bottom;
+}
+
+.CaixaImg{
+margin-top: 8rem;
+}
+
+
+.Img{
+  width: 46rem;
+  height: 34rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px  #696767;
+  background-color: #000;
+}
+
+
+.foto{
+  width: 46rem;
+  height: 37rem;
+  border-radius: 10px;
+  box-shadow:0px 4px 4px #696767;
+}
+
+.conteudo{
+  display: flex;
+  justify-self:left;
+  align-self: end;
+  margin: 1rem;
+}
+
+.receita{
+  width: 72rem;
+  height: 32rem;
+  margin-left: 15rem;
+  background-color:#D9D9D9;
+  border-radius: 10px;
+  color: #484747;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow:0px 4px 4px #696767;
+  padding: 2rem;
+  line-height: 25px;
+}
+
+.preparo{
+  width: 72rem;
+  height: 40rem;
+  margin-left: 15rem;
+  background-color:#D9D9D9;
+  border-radius: 10px;
+  margin-top: 8rem;
+  color: #484747;
+  padding: 2rem;
+  line-height: 25px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow:0px 4px 4px #696767;
+}
+
+.geral{
+  padding: 0 10rem 10rem 10rem;
+  background-color: var(--back-color);
+}
+
+.TextUl{
+  list-style-position: inside;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400; 
+  text-align: left;
+}
+
+.TitleP{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400; 
+  text-align: left;
+}
+
+.TitleH2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 500; 
+  text-align: center;
+}

@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+.Root {
+  width: 144rem;
+  margin: 0;
+  padding: 0;
+  --header-color: #BBCDB5;
+  --verde-escuro: #586553;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.Header {
+  background-color: var(--header-color);
+  height: 18rem;
+  box-shadow:0px 4px 4px #696767;
+  display:flex;
+  align-items: center;
+}
+
+.Logo {
+  width: 10.6rem;
+  height: 14.9rem;
+  margin-left: 9rem;
+}
+
+.Conteudo{
+  text-align: center;
+  margin-left: 2rem;
+  margin-left: 26rem;
+}
+
+.Input{
+  width: 48rem;
+  height: 3.2rem;
+  border: solid 1px var(--verde-escuro);
+  box-shadow: inset 0 4px 4px #809678;
+  border-radius: 10px;
+  background-color: var(--header-color);
+  font-family: 'Montserrat', sans-serif;
+  color: var(--verde-escuro);
+  font-weight:lighter;
+  font-size: 1.4rem;
+  margin-top: 4.6rem;
+  margin-bottom: 5.5rem;
+  font-weight: 200;
+
+}
+
+::-webkit-input-placeholder {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 0.8rem;
+  color: var(--verde-escuro);
+  font-weight: 200;
+}
+
+.Button{
+  width: 15rem;
+  height: 3.3rem;
+  border-radius: 5px;
+  background-color: #AC5050;
+  border: none;
+  box-shadow:0px 4px 4px #696767;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight:lighter;
+  font-size: 1.4rem;
+  margin: 0px 8px 14px 8px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.Button:hover{
+  width: 15rem;
+  height: 3.3rem;
+  border-radius: 5px;
+  background-color: var(--verde-escuro);
+  border: none;
+  box-shadow:0px 4px 4px #696767;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  font-weight:lighter;
+  font-size: 1.4rem;
+  margin: 0px 8px 14px 8px;
+  cursor:pointer;
+}
+
+.Links{
+  margin-top: 12rem;
+}
+
+.Login{
+  display: flex;
+  align-items:center;
+  margin-left: 20rem;
+  color: var(--verde-escuro);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+
+.Icons{
+  width: 2.4rem;
+  height: 2.4rem;  
+  margin-right: 1rem;
+}

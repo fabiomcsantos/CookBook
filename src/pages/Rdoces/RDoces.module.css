@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+.Root {
+  width: 144rem;
+  margin: 0;
+  padding: 0 0 10rem 0;
+  --header-color: #BBCDB5;
+  --verde-escuro: #586553;
+  --back-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--back-color);
+}
+
+.Voltar{
+  padding: 5rem 10rem 5rem 10rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Voltar a {
+  color: #AC5050;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.Seta{
+  width: 2.4rem;
+  height: 2.4rem;
+  vertical-align:bottom;
+}
+
+.imagens{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Img{
+  width: 60.9rem;
+  height: 37.4rem;
+  border-radius: 10px;
+}
+
+.Botao{
+  width: 24rem;
+  height: 4.4rem;
+  background-color: #AC5050 ;
+  opacity: 0.7;
+  font-size: 3.6rem;
+  color: #fff;
+  position:absolute;
+  top:31.8rem;
+  right: 37rem;
+  border: none;
+  text-align: left;
+  font-weight:200;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Img1{
+  width: 60.9rem;
+  height: 37.4rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px  #696767;
+  margin:0 8px 8px 0;
+  position: relative;
+
+}
+
+.Img2{
+  width: 60.9rem;
+  height: 37.4rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px  #696767;
+  margin:0 0 8px 8px;
+  position: relative;
+}
+
+.Img3{
+  width: 60.9rem;
+  height: 37.4rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px  #696767;
+  margin:8px 8px 0 0;
+  position: relative;
+
+}
+
+.Img4{
+  width: 60.9rem;
+  height: 37.4rem;
+  border-radius: 10px;
+  box-shadow: 0px 4px 4px  #696767;
+  margin:8px 0 0 8px;
+  position: relative;
+
+}

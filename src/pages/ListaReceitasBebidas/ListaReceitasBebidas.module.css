@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;600&family=Poppins:wght@100&display=swap');
+
+html{
+  font-size: 62.5%;
+}
+
+.Root {
+  width: 144rem;
+  margin: 0;
+  --header-color: #BBCDB5;
+  --verde-escuro: #586553;
+  --back-color: #F5F5F5;
+  font-family: 'Montserrat', sans-serif;
+  background-color: var(--back-color);
+}
+
+.Voltar{
+  padding: 5rem 10rem 5rem 10rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Voltar a {
+  color: #AC5050;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.Seta{
+  width: 2.4rem;
+  height: 2.4rem;
+  vertical-align:bottom;
+}
+
+.Conteudo{
+  margin-left: 8.8rem;
+  margin-bottom: 10rem;
+}
+
+.Line {
+  display: flex;
+  flex-wrap: wrap;
+  align-items:center;
+  padding: 1.2rem;
+  width: 100%;
+
+}
+
+.BOtao{
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+}
